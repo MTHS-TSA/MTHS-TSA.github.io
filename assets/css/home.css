@@ -34,3 +34,9 @@
        font-size: 8rem;
     }
 }
+
+@media only screen and (max-height: 800px) {
+    .large-title .main-text {
+        font-size: 8rem;
+     }
+}

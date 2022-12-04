@@ -32,6 +32,7 @@ nav {
     height: calc(100vh - 106px);
     overflow: auto;
     padding-left: 10vw;
+    top: 0;
 }
 
 .content p {
@@ -53,6 +54,7 @@ nav {
     font-size: 1.3rem;
     color: var(--white);
     line-height: 64px;
+    background-color: var(--dark);
 }
 
 .normal-nav a:hover {
@@ -83,6 +85,7 @@ nav {
 @media only screen and (max-width: 800px) {
     .content {
        padding: 10px;
+       height: calc(100vh - 86px);
     }
 
     .nav-text {
