@@ -23,7 +23,7 @@ email: jnac8080@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Information and updates on the Mountlake Terrace High School (MTHS) Technology Student Association (TSA) chapter.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mths-tsa.github.io"
 github_username:  MTHS-TSA
 
 # Build settings
