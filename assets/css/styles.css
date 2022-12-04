@@ -31,9 +31,6 @@ nav {
     margin: 0;
     height: calc(100vh - 106px);
     overflow: auto;
-}
-
-.content h1, .content h2, .content h3, .content p {
     padding-left: 10vw;
 }
 
