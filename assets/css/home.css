@@ -7,11 +7,12 @@
     height: calc(100% - 66px);
     width: 100%;
     object-fit: cover;
-    filter: brightness(30%) blur(6px) grayscale(30%);
+    filter: brightness(60%) blur(6px) grayscale(10%);
 }
 
 .large-title {
-    width: 100%;
+    padding: 20px;
+    width: calc(100% - 40px);
     text-align: center;
     position: fixed;
     top: calc(50% - 100px);
@@ -25,8 +26,12 @@
 }
 
 .large-title small {
+    display: inline-block;
     font-size: 2rem;
     color: var(--blue);
+    background-color: var(--dark);
+    padding: 8px 20px;
+    border: 2px solid var(--blue);
 }
 
 @media only screen and (max-width: 800px) {
