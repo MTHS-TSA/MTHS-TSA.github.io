@@ -7,6 +7,7 @@
 }
 
 body {
+    margin: 0;
     color: var(--white);
     background-color: var(--dark);
     font-family: 'Roboto Mono', monospace;
@@ -23,6 +24,21 @@ nav {
     width: 100%;
     border-top: 2px solid var(--red);
     height: 64px;
+}
+
+.content {
+    padding: 20px;
+    margin: 0;
+    height: calc(100vh - 106px);
+    overflow: auto;
+}
+
+.content h1, .content h2, .content h3, .content p {
+    padding-left: 10vw;
+}
+
+.content p {
+    max-width: 1000px;
 }
 
 .normal-nav {
