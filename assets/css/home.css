@@ -1,5 +1,4 @@
-#home-large-text {
-    font-size: 15rem;
+.large-title {
     width: 100%;
     text-align: center;
     position: fixed;
@@ -7,27 +6,11 @@
     transform: translateY(-50%);
 }
 
-nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 2px solid var(--red);
+.large-title h1 {
+    font-size: 15rem;
 }
 
-nav a {
-    transition: 0.3s;
-    display: block;
-    padding: 20px 0;
-    width: 20%;
-    text-align: center;
-    float: left;
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: var(--white);
-}
-
-nav a:hover {
-    transition: 0.3s;
-    background-color: var(--red);
-    color: var(--white);
+.large-title small {
+    font-size: 2rem;
+    color: var(--blue);
 }
