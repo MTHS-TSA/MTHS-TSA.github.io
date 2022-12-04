@@ -1,6 +1,5 @@
 ---
-layout: default
+layout: post-serve
 title: Updates
+category: updates
 ---
-
-# Updates
