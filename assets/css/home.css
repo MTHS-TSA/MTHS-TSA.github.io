@@ -7,7 +7,7 @@
     height: calc(100% - 66px);
     width: 100%;
     object-fit: cover;
-    filter: brightness(30%) blur(5px) grayscale(50%);
+    filter: brightness(30%) blur(6px) grayscale(30%);
 }
 
 .large-title {
