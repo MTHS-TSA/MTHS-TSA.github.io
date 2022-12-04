@@ -21,22 +21,39 @@ nav {
     bottom: 0;
     width: 100%;
     border-top: 2px solid var(--red);
+    height: 64px;
 }
 
-nav a {
+.normal-nav {
+    margin-left: 64px;
+}
+
+.normal-nav a {
     transition: 0.3s;
+    height: 100%;
     display: block;
-    padding: 20px 0;
-    width: 20%;
+    width: calc(100% / 5);
     text-align: center;
     float: left;
     text-decoration: none;
     font-size: 1.3rem;
     color: var(--white);
+    line-height: 64px;
 }
 
-nav a:hover {
+.normal-nav a:hover {
     transition: 0.3s;
     background-color: var(--red);
     color: var(--white);
+}
+
+#home-nav {
+    display: block;
+    float: left;
+    position: fixed;
+    width: 64px;
+}
+
+.normal-nav #active {
+    background-color: var(--red);
 }
