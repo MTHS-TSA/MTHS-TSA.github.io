@@ -6,8 +6,9 @@
     transform: translateY(-50%);
 }
 
-.large-title h1 {
+.large-title .main-text {
     font-size: 15rem;
+    margin: 0;
 }
 
 .large-title small {

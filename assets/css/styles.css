@@ -19,6 +19,7 @@ a {
 nav {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     border-top: 2px solid var(--red);
     height: 64px;
