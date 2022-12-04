@@ -38,10 +38,18 @@
     .large-title .main-text {
        font-size: 8rem;
     }
+
+    .large-title small {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-height: 800px) {
     .large-title .main-text {
         font-size: 8rem;
      }
+
+     .large-title small {
+        font-size: 1.5rem;
+    }
 }
