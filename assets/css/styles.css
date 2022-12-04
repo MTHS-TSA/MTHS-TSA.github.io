@@ -1,12 +1,16 @@
-/* https://coolors.co/d45050-25283d-fafafa-8aa29e */
+/* https://coolors.co/d45050-007ea7-fafafa-30332e */
 :root {
-    --red: #D45050;
-    --dark-blue: #25283D;
-    --white: #FAFAFA;
-    --gray: #8AA29E;
+    --red: #d45050;
+    --blue: #007ea7;
+    --white: #fafafa;
+    --dark: #30332e;
 }
 
 body {
     color: var(--white);
-    background-color: var(--dark-blue);
+    background-color: var(--dark);
+}
+
+a {
+    color: var(--blue);
 }
