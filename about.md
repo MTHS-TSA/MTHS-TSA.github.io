@@ -1,9 +1,9 @@
 ---
 layout: default
-title: History
+title: About
 ---
 
-# History
+# About
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque non tellus orci ac auctor augue mauris augue. Magna sit amet purus gravida quis blandit. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Sed cras ornare arcu dui vivamus arcu. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ipsum suspendisse ultrices gravida dictum fusce ut. At consectetur lorem donec massa sapien faucibus. Vel turpis nunc eget lorem. Velit aliquet sagittis id consectetur purus. Eget mauris pharetra et ultrices neque ornare aenean. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Vestibulum lorem sed risus ultricies tristique. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Odio euismod lacinia at quis risus. Augue mauris augue neque gravida in fermentum et. Risus feugiat in ante metus dictum. Massa id neque aliquam vestibulum morbi. Aenean pharetra magna ac placerat. Adipiscing commodo elit at imperdiet.
 
