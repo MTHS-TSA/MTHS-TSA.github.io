@@ -1,0 +1,10 @@
+<nav>
+    <a id="home-nav" href="{{ "/" | absolute_url }}"><img src="/assets/images/logo1.png" alt=""></a>
+    <div class="normal-nav">
+        <a {% if page.title == "About" %}id="active"{% endif %} href="{{ "/about" | absolute_url }}">About</a>
+        <a {% if page.title == "Members" %}id="active"{% endif %} href="{{ "/members" | absolute_url }}">Members</a>
+        <a {% if page.title == "Awards" %}id="active"{% endif %} href="{{ "/awards" | absolute_url }}">Awards</a>
+        <a {% if page.title == "Projects" %}id="active"{% endif %} href="{{ "/projects" | absolute_url }}">Projects</a>
+        <a {% if page.title == "Updates" %}id="active"{% endif %} href="{{ "/updates" | absolute_url }}">Updates</a>
+    </div>
+</nav>

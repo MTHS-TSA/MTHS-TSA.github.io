@@ -1,0 +1,22 @@
+.content {
+    padding: 0;
+}
+
+.large-title {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: calc(50% - 100px);
+    transform: translateY(-50%);
+}
+
+.large-title .main-text {
+    font-size: 15rem;
+    margin: 0;
+    padding: 0;
+}
+
+.large-title small {
+    font-size: 2rem;
+    color: var(--blue);
+}
