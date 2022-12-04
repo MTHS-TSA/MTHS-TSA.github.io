@@ -2,6 +2,14 @@
     padding: 0;
 }
 
+#background-image {
+    position: fixed;
+    height: calc(100% - 66px);
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(30%) blur(5px) grayscale(50%);
+}
+
 .large-title {
     width: 100%;
     text-align: center;
