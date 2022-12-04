@@ -28,3 +28,9 @@
     font-size: 2rem;
     color: var(--blue);
 }
+
+@media only screen and (max-width: 800px) {
+    .large-title .main-text {
+       font-size: 8rem;
+    }
+}

@@ -71,3 +71,25 @@ nav {
 .normal-nav #active {
     background-color: var(--red);
 }
+
+.nav-text {
+    display: inline;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+       padding: 10px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+    
+    .nav-icon {
+        display: inline;
+    }
+}
