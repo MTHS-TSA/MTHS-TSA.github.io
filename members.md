@@ -1,22 +1,5 @@
 ---
-layout: default
+layout: members
 title: Members
+head_content: <link rel="stylesheet" href="/assets/css/members.css">
 ---
-
-# Members
-
-## 2022-2023
-
-### Leadership
-
-### Veterans
-
-### Freshmen
-
-## 2021-2022
-
-### Leadership
-
-### Veterans
-
-### Freshmen

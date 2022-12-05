@@ -1,0 +1,11 @@
+<li class="member-card">
+    <a href="{{ include.profile-url }}">
+        {% if include.profile-img %}
+            <img src="{{ include.profile-img }}" alt="">
+        {% else %}
+            <img src="/assets/images/default-profile.svg" alt="">
+        {% endif %}
+        <h3>{{ include.first-name }}</h3>
+        <h4>{{ include.last-name }}</h4>
+    </a>
+</li>
