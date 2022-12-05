@@ -1,18 +1,36 @@
-ul {
-    display: flex;
+ul.members-list {
+    display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
-.member-card {
+li.member-card {
     display: block;
     float: left;
     flex: 1;
-    padding: 10px;
+    flex-basis: 128px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 100%;
+}
+
+.member-card a {
+    display: inline-block;
+    height: 100%;
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px
 }
 
 .member-card img {
-    height: 100px;
-    width: 100px;
+    height: 128px;
+    width: 128px;
     object-fit: cover;
+}
+
+.member-card h4 {
+    margin: 5px 0;
 }
