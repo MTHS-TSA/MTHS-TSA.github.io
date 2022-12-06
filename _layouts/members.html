@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<!--
+    TODO:
+    - Make a for loop to go generate for each year
+ -->
+
 <h1>Members</h1>
 
 <h2>2022-2023</h2>
@@ -9,18 +14,44 @@ layout: default
 <h3>Leadership</h3>
 
 <ul class="members-list">
-    {% include member-card.html  profile-url="" first-name="Emily" last-name="Ulvin" %}
-    {% include member-card.html  profile-url="" first-name="Luna" last-name="Tewolde" %}
-    {% include member-card.html  profile-url="" first-name="Raio" last-name="Chea" %}
-    {% include member-card.html  profile-url="" first-name="Kien" last-name="Trung" %}
-    {% include member-card.html  profile-url="" first-name="Kaylee" last-name="Miyamoto" %}
-    {% include member-card.html  profile-url="" first-name="Ishika" last-name="Goundar" %}
-    {% include member-card.html  profile-url="" first-name="Jakob" last-name="Nacanaynay" %}
+    {% for member in site.data.members.members-2022-2023 %}
+        {% if member.role == "leadership" %}
+            {% capture first %}{{ member.first }}{% endcapture %}
+            {% capture last %}{{ member.last }}{% endcapture %}
+            {% capture url %}{{ member.url }}{% endcapture %}
+            {% capture img %}{{ member.img }}{% endcapture %}
+            {% include member-card.html img=img url=url first=first last=last %}
+        {% endif %}
+    {% endfor %}
 </ul>
 
 <h3>Veterans</h3>
 
+<ul class="members-list">
+    {% for member in site.data.members.members-2022-2023 %}
+        {% if member.role == "veteran" %}
+            {% capture first %}{{ member.first }}{% endcapture %}
+            {% capture last %}{{ member.last }}{% endcapture %}
+            {% capture url %}{{ member.url }}{% endcapture %}
+            {% capture img %}{{ member.img }}{% endcapture %}
+            {% include member-card.html img=img url=url first=first last=last %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
 <h3>Freshmen</h3>
+
+<ul class="members-list">
+    {% for member in site.data.members.members-2022-2023 %}
+        {% if member.role == "freshman" %}
+            {% capture first %}{{ member.first }}{% endcapture %}
+            {% capture last %}{{ member.last }}{% endcapture %}
+            {% capture url %}{{ member.url }}{% endcapture %}
+            {% capture img %}{{ member.img }}{% endcapture %}
+            {% include member-card.html img=img url=url first=first last=last %}
+        {% endif %}
+    {% endfor %}
+</ul>
 
 <h2>2021-2022</h2>
 
