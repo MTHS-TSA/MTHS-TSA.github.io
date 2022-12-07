@@ -16,11 +16,7 @@ layout: default
 <ul class="members-list">
     {% for member in site.data.members.members-2022-2023 %}
         {% if member.role == "leadership" %}
-            {% capture first %}{{ member.first }}{% endcapture %}
-            {% capture last %}{{ member.last }}{% endcapture %}
-            {% capture url %}{{ member.url }}{% endcapture %}
-            {% capture img %}{{ member.img }}{% endcapture %}
-            {% include member-card.html img=img url=url first=first last=last %}
+            {% include member-card.html img=member.img url=member.url first=member.first last=member.last %}
         {% endif %}
     {% endfor %}
 </ul>
@@ -30,11 +26,7 @@ layout: default
 <ul class="members-list">
     {% for member in site.data.members.members-2022-2023 %}
         {% if member.role == "veteran" %}
-            {% capture first %}{{ member.first }}{% endcapture %}
-            {% capture last %}{{ member.last }}{% endcapture %}
-            {% capture url %}{{ member.url }}{% endcapture %}
-            {% capture img %}{{ member.img }}{% endcapture %}
-            {% include member-card.html img=img url=url first=first last=last %}
+            {% include member-card.html img=member.img url=member.url first=member.first last=member.last %}
         {% endif %}
     {% endfor %}
 </ul>
@@ -44,11 +36,7 @@ layout: default
 <ul class="members-list">
     {% for member in site.data.members.members-2022-2023 %}
         {% if member.role == "freshman" %}
-            {% capture first %}{{ member.first }}{% endcapture %}
-            {% capture last %}{{ member.last }}{% endcapture %}
-            {% capture url %}{{ member.url }}{% endcapture %}
-            {% capture img %}{{ member.img }}{% endcapture %}
-            {% include member-card.html img=img url=url first=first last=last %}
+            {% include member-card.html img=member.img url=member.url first=member.first last=member.last %}
         {% endif %}
     {% endfor %}
 </ul>
