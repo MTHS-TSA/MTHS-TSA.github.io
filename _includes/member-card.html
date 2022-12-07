@@ -1,0 +1,11 @@
+<li class="member-card">
+    <a href="/members/{{ include.url }}">
+        {% if include.img %}
+            <img src="{{ include.img }}" alt="">
+        {% else %}
+            <img src="/assets/images/default-profile.svg" alt="">
+        {% endif %}
+        <h4>{{ include.first }}</h4>
+        <span>{{ include.last }}</span>
+    </a>
+</li>
